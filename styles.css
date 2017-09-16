@@ -1,8 +1,17 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
 #wrapper {
-	width: 600px;
+	width: 800px;
 	margin: auto;
 }
 
 .main-head {
 	border-radius: 5px;
+}
+
+footer {
+	font-size: 1em;
+	text-align: right;
 }
