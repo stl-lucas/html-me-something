@@ -1,5 +1,5 @@
-body {
-	font-family: 'Raleway', sans-serif;
+html, body {
+  font-family: 'Raleway', sans-serif;
 }
 
 #wrapper {
@@ -7,11 +7,51 @@ body {
 	margin: auto;
 }
 
-.main-head {
+header {
+	text-align: center;
+}
+
+#nav-bar a {
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 0px 15px 10px;
+	color: red;
+}
+#nav-bar a:hover {
+	color: red;
+}
+
+#nav-bar a:visited {
+	color: red;
+}
+
+article {
+	padding-bottom: 20px;
+}
+
+article a {
+	text-decoration: none;
+	font-size: 1em;
+	color: red;
+}
+article a:hover {
+	color: red;
+}
+
+article a:visited {
+	color: red;
+}
+
+.thumbnail {
 	border-radius: 5px;
+	padding: 1px;
+	margin: auto;
 }
 
 footer {
 	font-size: 1em;
 	text-align: right;
+	color: white;
+	padding: 1rem 1.5rem 5em;
+	background: black;
 }
